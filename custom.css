@@ -1,8 +1,8 @@
 :root {
     --Primary:        #282a36;    /*Voron:Black*/
     --Secondary:      #ff5555;    /*Voron:Red*/
-    --r_green:        #dfff3e;    /*ratrig:green*/
-    --r_gray:         #2b2b2b;    /*ratrig:grey*/
+    --h_green:        #dfff3e;    /*HevORT:green*/
+    --gray:           #2b2b2b;    
     --Green:          #50fa7b; 
     --Red:            #ff5555;
     --Warnings:       #ffb86c;
@@ -22,31 +22,31 @@
 }
 
 .v-application .warning {
-    background-color: var(--r_green) !important;
-    border-color: var(--r_green);
+    background-color: var(--h_green) !important;
+    border-color: var(--h_green);
 }
 
 .v-application .primary {
-    background-color: var(--r_gray) !important;
-    border-color: var(--r_green) !important;
+    background-color: var(--gray) !important;
+    border-color: var(--h_green) !important;
 }
 
 .v-application .success--text {
-    color: var(--r_green) !important;
-    caret-color: var(--r_green) !important;
+    color: var(--h_green) !important;
+    caret-color: var(--h_green) !important;
 }
 
 .v-application .primary--text {
-    color: var(--r_green) !important;
-    caret-color: var(--r_green) !important;
+    color: var(--h_green) !important;
+    caret-color: var(--h_green) !important;
 }
 
 .v-application a {
-    color: var(--r_green);
+    color: var(--h_green);
 }
 
  .v-btn:not(.v-btn--outlined).warning {
-    color: var(--r_gray) !important;
+    color: var(--gray) !important;
 }
 
 .v-btn:not(.v-btn--outlined).accent, .v-btn:not(.v-btn--outlined).error, .v-btn:not(.v-btn--outlined).info, .v-btn:not(.v-btn--outlined).primary, .v-btn:not(.v-btn--outlined).secondary, .v-btn:not(.v-btn--outlined).success {
@@ -54,21 +54,21 @@
 }
 
 .v-application .text-body-2, .v-application .text-button {
-    color: var(--r_green);
+    color: var(--h_green);
 }
 
 .v-progress-circular__overlay .v-card__text {
-    stroke: var(--r_green) !important;
+    stroke: var(--h_green) !important;
 }
 
 .v-slider__track-fill.primary {
-    background-color: var(--r_green) !important;
-    border-color: var(--r_green) !important;
+    background-color: var(--h_green) !important;
+    border-color: var(--h_green) !important;
 }
 
 .v-slider__thumb.primary {
-    background-color: var(--r_green) !important;
-    border-color: var(--r_green) !important;
+    background-color: var(--h_green) !important;
+    border-color: var(--h_green) !important;
 }
 
 /*
