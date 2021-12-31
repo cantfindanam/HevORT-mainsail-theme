@@ -14,12 +14,23 @@
     --Sheets:         #282a36;
 }
 
-#nav-header .v-toolbar__title {
+.v-toolbar__title {
     font-size: 24px;
-    vertical-align: middle;
-    color: #dfff3e;
-    font-family: monospace;
+    vertical-align: baseline;
+    color: ##ffffffcc;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
 }
+.v-list-item__title {
+    vertical-align: baseline;
+    color: ##ffffffcc;
+    font-family: Roboto,sans-serif;
+}
+
+.v-application .white--text {
+    color: #888888!important;
+    caret-color: #fff!important;
+}
+
 
 .v-application .warning {
     background-color: var(--h_green) !important;
